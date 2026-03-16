@@ -19,7 +19,7 @@ const projects = [
       "An interactive dice game built with React featuring smooth animations, score tracking, and persistent game state.",
     technologies: ["React", "Node.js", "CSS"],
     github: "https://github.com/mustafaaosamaa/Tenzies-Game",
-    demo: "https://github.com/mustafaaosamaa/Tenzies-Game",
+    demo: "https://tenzies-game-nine-pied.vercel.app/",
   },
   {
     title: "Memory Game",
