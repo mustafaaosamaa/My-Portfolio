@@ -11,7 +11,7 @@ const projects = [
       "A comprehensive tourism platform showcasing cultural heritage sites with interactive features and booking capabilities.",
     technologies: ["React", "Node.js", "MongoDB", "Express.js"],
     github: "https://github.com/mustafaaosamaa/Heritage_Explorer_Frontend",
-    demo: "https://github.com/mustafaaosamaa/Heritage_Explorer_Frontend",
+    demo: "https://heritage-explorer-frontend.vercel.app/",
   },
   {
     title: "Tenzies Game",
