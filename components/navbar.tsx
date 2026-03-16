@@ -53,15 +53,27 @@ export function Navbar() {
               Download CV
             </Button>
           </Link> */}
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-base text-muted-foreground hover:text-foreground transition-colors"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {navLinks.map((link) =>
+  link.label === "CV" ? (
+    <a
+      key={link.href}
+      href={link.href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-base text-muted-foreground hover:text-foreground transition-colors"
+    >
+      {link.label}
+    </a>
+  ) : (
+    <Link
+      key={link.href}
+      href={link.href}
+      className="text-base text-muted-foreground hover:text-foreground transition-colors"
+    >
+      {link.label}
+    </Link>
+  )
+)}
           <Button
             variant="ghost"
             size="icon"
