@@ -27,7 +27,7 @@ const projects = [
       "A classic memory matching game built with TypeScript featuring difficulty levels and performance tracking.",
     technologies: ["TypeScript", "HTML", "CSS"],
     github: "https://github.com/mustafaaosamaa/Memory-Game",
-    demo: "https://github.com/mustafaaosamaa/Memory-Game",
+    demo: "https://mustafaaosamaa.github.io/Memory-Game/",
   },
   {
     title: "Bank System",
