@@ -1,6 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Mail, Github, Linkedin, ArrowUpRight } from "lucide-react"
+import { Mail, Github, Linkedin, ArrowUpRight, Instagram, Facebook } from "lucide-react"
 
 const socialLinks = [
   {
@@ -13,14 +13,26 @@ const socialLinks = [
     name: "GitHub",
     href: "https://github.com/mustafaaosamaa",
     icon: Github,
-    label: "GitHub Profile",
+    label: "GitHub",
   },
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/mustafa-osama-37049b28b/",
     icon: Linkedin,
-    label: "LinkedIn Profile",
+    label: "LinkedIn",
   },
+  {
+    name: "Instagram",
+    href: "https://www.instagram.com/mustafaosamaa",
+    icon: Instagram,
+    label: "Instagram",
+  },
+  {
+    name: "Facebook",
+    href: "https://www.facebook.com/Mustafaosamaa",
+    icon: Facebook,
+    label: "Facebook",
+  }
 ]
 
 export function Contact() {

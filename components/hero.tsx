@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Github, Linkedin, Mail } from "lucide-react"
+import { ArrowRight, Github, Linkedin, Mail, Instagram, Facebook } from "lucide-react"
 
 export function Hero() {
   return (
@@ -10,7 +10,7 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <p className="text-accent font-medium tracking-wide uppercase text-sm">
+              <p className="text-accent font-medium tracking-wide uppercase text-lg">
                 Full-Stack Developer
               </p>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-balance">
@@ -31,11 +31,20 @@ export function Hero() {
                 </Link>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <Link href="#contact">Get in Touch</Link>
+                <Link href="#contact">
+                  Get in Touch
+                </Link>
               </Button>
             </div>
 
             <div className="flex items-center gap-4 pt-4">
+              <Link
+                href="mailto:muustafaosamaa@gmail.com"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Mail className="h-5 w-5" />
+                <span className="sr-only">Email</span>
+              </Link>
               <Link
                 href="https://github.com/mustafaaosamaa"
                 target="_blank"
@@ -55,11 +64,22 @@ export function Hero() {
                 <span className="sr-only">LinkedIn</span>
               </Link>
               <Link
-                href="mailto:muustafaosamaa@gmail.com"
+                href="https://www.instagram.com/mustafaosamaa"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >
-                <Mail className="h-5 w-5" />
-                <span className="sr-only">Email</span>
+                <Instagram className="h-4 w-4" />
+                <span className="sr-only">Instagram</span>
+              </Link>
+              <Link
+                href="https://www.facebook.com/Mustafaosamaa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                <Facebook className="h-4 w-4" />
+                <span className="sr-only">Facebook</span>
               </Link>
             </div>
           </div>

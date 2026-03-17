@@ -9,7 +9,7 @@ const projects = [
     title: "Heritage Explorer Tourism Website",
     description:
       "A comprehensive tourism platform showcasing cultural heritage sites with interactive features and booking capabilities.",
-    technologies: ["React", "Node.js", "MongoDB", "Express.js"],
+    technologies: ["JavaScript", "React", "Node.js", "MongoDB", "Express.js", "CSS", "flutter", "llama2 model"],
     github: "https://github.com/mustafaaosamaa/Heritage_Explorer_Frontend",
     demo: "https://heritage-explorer-frontend.vercel.app/",
   },
@@ -17,7 +17,7 @@ const projects = [
     title: "Tenzies Game",
     description:
       "An interactive dice game built with React featuring smooth animations, score tracking, and persistent game state.",
-    technologies: ["React", "Node.js", "CSS"],
+    technologies: ["JavaScript", "React", "Node.js", "CSS"],
     github: "https://github.com/mustafaaosamaa/Tenzies-Game",
     demo: "https://tenzies-game-nine-pied.vercel.app/",
   },
@@ -28,23 +28,7 @@ const projects = [
     technologies: ["TypeScript", "HTML", "CSS"],
     github: "https://github.com/mustafaaosamaa/Memory-Game",
     demo: "https://mustafaaosamaa.github.io/Memory-Game/",
-  },
-  {
-    title: "Bank System",
-    description:
-      "A full-featured banking system with account management, transaction processing, and secure authentication.",
-    technologies: ["Node.js", "Express.js", "MongoDB"],
-    github: "https://github.com/mustafaaosamaa/Bank-System",
-    demo: "https://github.com/mustafaaosamaa/Bank-System",
-  },
-  {
-    title: "Embedded-C-Microwave-Controller",
-    description:
-      "An embedded C project simulating a microwave controller with features like timer, power settings, and safety mechanisms.",
-    technologies: ["C", "Embedded Systems"],
-    github: "https://github.com/mustafaaosamaa/Embedded-C-Microwave-Controller",
-    demo: "https://github.com/mustafaaosamaa/Embedded-C-Microwave-Controller",
-  },
+  }
 ]
 
 export function Projects() {

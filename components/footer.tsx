@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Mail } from "lucide-react"
+import { Github, Linkedin, Mail, Instagram, Facebook } from "lucide-react"
 
 export function Footer() {
   return (
@@ -10,6 +10,13 @@ export function Footer() {
             © {new Date().getFullYear()} Mustafa Osama. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
+            <Link
+              href="mailto:muustafaosamaa@gmail.com"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <Mail className="h-4 w-4" />
+              <span className="sr-only">Email</span>
+            </Link>
             <Link
               href="https://github.com/mustafaaosamaa"
               target="_blank"
@@ -29,11 +36,22 @@ export function Footer() {
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link
-              href="mailto:muustafaosamaa@gmail.com"
+              href="https://www.instagram.com/mustafaosamaa"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              <Mail className="h-4 w-4" />
-              <span className="sr-only">Email</span>
+              <Instagram className="h-4 w-4" />
+              <span className="sr-only">Instagram</span>
+            </Link>
+            <Link
+              href="https://www.facebook.com/Mustafaosamaa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              <Facebook className="h-4 w-4" />
+              <span className="sr-only">Facebook</span>
             </Link>
           </div>
         </div>
