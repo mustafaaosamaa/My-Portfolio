@@ -6,12 +6,28 @@ import { Github, ExternalLink } from "lucide-react"
 
 const projects = [
   {
+    title: "SUFRA Cloud Kitchen",
+    description:
+      "Sufra is an AI-powered cloud kitchen connects home chefs with customers. enabling chefs to build digital kitchens, manage meals & orders, and generate AI-powered branding, while customers can discover kitchens and receive personalized recommendations.",
+    technologies: ["JavaScript", "React", "Next.js", "Node.js", "MongoDB", "Express.js", "JWT Authentication", "Tailwind CSS", "Material UI", "llama2 model"],
+    github: "https://github.com/mustafaaosamaa/SUFRA-Cloud-Kitchen",
+    demo: "https://sufra-cloud-kitchen-nine.vercel.app/",
+  },
+  {
     title: "Heritage Explorer Tourism Website",
     description:
-      "A comprehensive tourism platform showcasing cultural heritage sites with interactive features and booking capabilities.",
+      "A comprehensive tourism platform showcasing cultural heritage sites with interactive 3D Modeling and VR allowing Tourists to live the Experinece and seeing Reviews and Ratings.",
     technologies: ["JavaScript", "React", "Node.js", "MongoDB", "Express.js", "CSS", "flutter", "llama2 model"],
     github: "https://github.com/mustafaaosamaa/Heritage_Explorer_Frontend",
     demo: "https://heritage-explorer-frontend.vercel.app/",
+  },
+  {
+    title: "Fake Store React App",
+    description:
+      "A responsive e-commerce application built with React and Fake Store API. Users can browse products, search and filter items, view product details, and manage their shopping cart through a modern and user-friendly interface.",
+    technologies: ["JavaScript", "React.js", "React Router", "CSS", "Git"],
+    github: "https://github.com/mustafaaosamaa/fake-store-react-app",
+    demo: "https://fake-store-react-app-six.vercel.app/",
   },
   {
     title: "Tenzies Game",
@@ -37,7 +53,7 @@ export function Projects() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="space-y-4 mb-16">
           <h2 className="text-3xl font-bold tracking-tight">Projects</h2>
-          <p className="text-muted-foreground max-w-2xl">
+          <p className="text-muted-foreground max-w-2xl text-lg">
             A selection of projects I've built, from full-stack applications to
             interactive games.
           </p>
@@ -53,7 +69,7 @@ export function Projects() {
                 <CardTitle className="text-lg font-semibold group-hover:text-accent transition-colors">
                   {project.title}
                 </CardTitle>
-                <CardDescription className="text-sm leading-relaxed">
+                <CardDescription className="text-base leading-relaxed">
                   {project.description}
                 </CardDescription>
               </CardHeader>

@@ -9,7 +9,7 @@ export function About() {
             <div className="space-y-4">
               <h2 className="text-3xl font-bold tracking-tight">About Me</h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
-                <p>
+                {/* <p>
                   I'm a full-stack developer specializing in the{" "}
                   <span className="text-foreground font-medium">MERN stack</span>{" "}
                   (MongoDB, Express.js, React, Node.js). I build responsive
@@ -25,6 +25,16 @@ export function About() {
                   When I'm not coding, I'm exploring new technologies, contributing
                   to open-source projects, or building side projects to expand my
                   skill set.
+                </p> */}
+                <p className="text-lg">
+                  Software Engineer and Full-Stack Web Developer with a Bachelor's degree in Computer and Systems Engineering from <span className="text-foreground font-medium">Ain Shams University</span> and professional training through the <span className="text-foreground font-medium">Information Technology Institute (ITI)</span> Intensive Code Camp.
+                </p>
+                <p className="text-lg">
+                  Passionate about building scalable, user-focused web applications using modern technologies such as JavaScript, React, Next.js, Angular, Node.js, Express.js, and MongoDB. Experienced in developing responsive user interfaces, RESTful APIs, authentication systems, AI-powered features, and full-stack solutions from concept to deployment.
+                </p>
+                <p className="text-lg">
+                  Recently contributed to the development of <span className="text-foreground font-medium">SUFRA</span>, an AI-powered homemade food marketplace platform that connects home chefs with customers through a modern cloud kitchen ecosystem. Strong believer in continuous learning, clean code practices, teamwork, and delivering impactful software solutions.
+
                 </p>
               </div>
             </div>

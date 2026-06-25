@@ -17,9 +17,11 @@ export function Hero() {
                 Mustafa Osama
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-lg">
-                I'm a full-stack developer specializing in {" "}
+                I'm Mustafa Osama, a Software Engineer graduated from <span className="text-foreground font-medium">Ain Shams University</span> (Computer and Systems Engineering) and an <span className="text-foreground font-medium">ITI Intensive Code Camp</span> graduate. I specialize in Full-Stack Web Development using React, Next.js, Angular, Node.js, Express.js, and MongoDB, with a passion for building modern, scalable, and user-centered applications.
+
+                {/* I'm a full-stack developer specializing in {" "}
                 <span className="text-foreground font-medium">MERN stack</span>. I
-                build responsive frontend interfaces and scalable backend APIs with clean, maintainable code.
+                build responsive frontend interfaces and scalable backend APIs with clean, maintainable code. */}
               </p>
             </div>
 
@@ -85,11 +87,10 @@ export function Hero() {
           </div>
 
           {/* Tech Stack Visual */}
-          <div className="hidden lg:flex items-center justify-center">
+          <div className="lg:flex items-center justify-center">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-accent/20 to-accent/5 blur-3xl rounded-full" />
               <div className="relative grid grid-cols-2 gap-6 p-8">
-                {/* <TechIcons /> */}
                 <img src='mustafa.jpeg' alt="Mustafa Osama" className="ml-[120px] w-[350px] h-[350px] object-cover border-3 border-green-100 rounded-xl" />
               </div>
             </div>

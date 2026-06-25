@@ -34,14 +34,14 @@ export function Navbar() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-          ? "bg-background/80 backdrop-blur-lg border-b border-border"
-          : "bg-transparent"
+        ? "bg-background/80 backdrop-blur-lg border-b border-border"
+        : "bg-transparent"
         }`}
     >
       <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="text-xl font-semibold tracking-tight hover:text-accent transition-colors"
+          className="text-3xl font-semibold tracking-tight hover:text-accent transition-colors"
         >
           Mustafa Osama
         </Link>
@@ -54,26 +54,26 @@ export function Navbar() {
             </Button>
           </Link> */}
           {navLinks.map((link) =>
-  link.label === "CV" ? (
-    <a
-      key={link.href}
-      href={link.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-base text-muted-foreground hover:text-foreground transition-colors"
-    >
-      {link.label}
-    </a>
-  ) : (
-    <Link
-      key={link.href}
-      href={link.href}
-      className="text-base text-muted-foreground hover:text-foreground transition-colors"
-    >
-      {link.label}
-    </Link>
-  )
-)}
+            link.label === "CV" ? (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-base text-muted-foreground hover:text-foreground transition-colors text-lg"
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-base text-muted-foreground hover:text-foreground transition-colors text-lg"
+              >
+                {link.label}
+              </Link>
+            )
+          )}
           <Button
             variant="ghost"
             size="icon"

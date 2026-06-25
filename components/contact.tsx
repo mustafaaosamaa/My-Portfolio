@@ -41,8 +41,8 @@ export function Contact() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <div className="space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight">Get in Touch</h2>
-            <p className="text-muted-foreground leading-relaxed">
+            <h2 className="text-5xl font-bold tracking-tight">Get In Touch</h2>
+            <p className="text-muted-foreground leading-relaxed text-xl">
               I'm currently open to new opportunities and collaborations. Whether
               you have a project in mind or just want to say hi, feel free to
               reach out!
